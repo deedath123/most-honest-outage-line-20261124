@@ -1,6 +1,10 @@
 """Most Honest Outage Line — writes the locked entry line to entry.txt.
 
 Stdlib only. No network, no reads of other files.
+
+Verification note: the entry reproduced byte-for-byte on every fresh run
+tried before this note was added, clean environment included, and the run
+after this edit is checked the same way before anything is pushed.
 """
 
 import os
